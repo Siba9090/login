@@ -1,0 +1,62 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <link rel="stylesheet" type="text/css" href="style3.css">
+    <title>Sp:)Learn</title>
+</head>
+<body>
+	<div class="siba">
+		<div class="s1-box">
+			<div class="btn-box">
+				<div id="btn"></div>
+				 <button type="button" class="toggle-btn" onclick="Login()">Log-In</button> 
+				 <button type="button" class="toggle-btn" onclick="Regester()">Register</button>
+			</div>
+			<div class="social-icon">
+			<a href="https://www.google.com"><img src="s2.png" width="50" height="50" ></a>
+			<a href="https://www.facebook.com"><img src="s3.png" width="50" height="50"></a>
+			<a href="https://twitter.com/login"><img src="s5.png" width="50" height="50"></a>
+			<a href="https://www.instagram.com"><img src="s4.png" width="50" height="50"></a>
+		</div>
+		<form id="Login" class="input-group">
+			<input type="text" class="input-field" placeholder="User-Id"required>
+			<input type="text" class="input-field" placeholder="Enter Password"required>
+			<input type="checkbox" class="check-box"><span>Remember The Password</span>
+			<button type="submit" class="submit-btn">Log-In</button>
+		</form>
+		<form id="Regester" class="input-group">
+			<input type="text" class="input-field" placeholder="User-Id"required>
+			<input type="Email" class="input-field" placeholder="Email Id"required>
+			<input type="text" class="input-field" placeholder="Enter Password"required>
+			<input type="checkbox" class="check-box"><span>I agree to the term & cond.</span>
+			<button type="submit" class="submit-btn">Regester</button>
+		</form>
+			
+		
+		</div>
+		
+	</div>
+<script>
+	var x=document.getElementById("Login");
+	var y=document.getElementById("Regester");
+	var z=document.getElementById("btn");
+
+	function Regester(){
+		x.style.left="-400px";
+		y.style.left="50px";
+		z.style.left="110px";
+	}
+	function Login(){
+		x.style.left="50px";
+		y.style.left="450px";
+		z.style.left="0";
+	}
+</script>
+
+
+   
+  </body>
+</html>
+	
